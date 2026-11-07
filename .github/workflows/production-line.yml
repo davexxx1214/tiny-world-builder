@@ -10,8 +10,6 @@ name: production-line
 # Nothing here ever posts to a social account or modifies the gated economy paths.
 
 on:
-  schedule:
-    - cron: '17 * * * *'   # hourly, on the :17 — change cadence here
   workflow_dispatch: {}      # manual run button
 
 permissions:
